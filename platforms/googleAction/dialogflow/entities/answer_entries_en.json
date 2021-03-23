@@ -1,0 +1,20 @@
+[
+	{
+		"value": "true",
+		"synonyms": [
+			"true",
+			"right",
+			"correct",
+			"truth"
+		]
+	},
+	{
+		"value": "false",
+		"synonyms": [
+			"false",
+			"wrong",
+			"incorrect",
+			"lie"
+		]
+	}
+]

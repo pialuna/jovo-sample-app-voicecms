@@ -1,0 +1,65 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "c. m. s. quiz",
+			"types": [
+				{
+					"name": "answer",
+					"values": [
+						{
+							"id": "true",
+							"name": {
+								"value": "true",
+								"synonyms": [
+									"right",
+									"correct",
+									"truth"
+								]
+							}
+						},
+						{
+							"id": "false",
+							"name": {
+								"value": "false",
+								"synonyms": [
+									"wrong",
+									"incorrect",
+									"lie"
+								]
+							}
+						}
+					]
+				}
+			],
+			"intents": [
+				{
+					"name": "TrueOrFalseIntent",
+					"samples": [
+						"{answer}",
+						"that is {answer}",
+						"it is {answer}",
+						"it is a {answer}"
+					],
+					"slots": [
+						{
+							"name": "answer",
+							"type": "answer"
+						}
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

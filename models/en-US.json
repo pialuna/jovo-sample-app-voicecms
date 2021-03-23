@@ -1,0 +1,69 @@
+{
+	"invocation": "c. m. s. quiz",
+	"intents": [
+		{
+			"name": "TrueOrFalseIntent",
+			"phrases": [
+				"{answer}",
+				"that is {answer}",
+				"it is {answer}",
+				"it is a {answer}"
+			],
+			"inputs": [
+				{
+					"name": "answer",
+					"type": "answer"
+				}
+			]
+		}
+	],
+	"inputTypes": [
+		{
+			"name": "answer",
+			"values": [
+				{
+					"id": "true",
+					"value": "true",
+					"synonyms": [
+						"right",
+						"correct",
+						"truth"
+					]
+				},
+				{
+					"id": "false",
+					"value": "false",
+					"synonyms": [
+						"wrong",
+						"incorrect",
+						"lie"
+					]
+				}
+			]
+		}
+	],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+		]
+	}
+}

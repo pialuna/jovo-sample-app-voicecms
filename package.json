@@ -1,0 +1,38 @@
+{
+  "name": "jovo-sample-app-voicecms",
+  "version": "1.0.0",
+  "description": "A sample quiz game Jovo app that uses the Voice CMS plugin",
+  "main": "src/index.js",
+  "dependencies": {
+    "jovo-db-filedb": "^3.5.0",
+    "jovo-framework": "^3.5.0",
+    "jovo-platform-alexa": "^3.5.1",
+    "jovo-platform-googleassistant": "^3.5.1",
+    "jovo-plugin-debugger": "^3.5.0",
+    "jovo-plugin-voicecms": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-install": "^1.1.0",
+    "gulp-run-command": "0.0.9",
+    "gulp-zip": "^4.2.0",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "tsc": "node -v",
+    "test": "jest",
+    "bundle": "gulp --gulpfile node_modules/jovo-framework/gulpfile.js --cwd ./",
+    "start": "cd src && node index.js --webhook",
+    "launch": "npm start -- --launch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pialuna/jovo-sample-app-voicecms.git"
+  },
+  "author": "Pia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pialuna/jovo-sample-app-voicecms/issues"
+  },
+  "homepage": "https://github.com/pialuna/jovo-sample-app-voicecms#readme"
+}
