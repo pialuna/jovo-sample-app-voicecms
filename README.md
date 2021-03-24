@@ -13,7 +13,7 @@ Voice CMS can be found here: https://github.com/pialuna/voice-cms
 # to run a Jovo app locally, you need to install the Jovo CLI
 npm install -g jovo-cli
 
-# install dependencies.
+# install dependencies in the project root
 npm install
 
 # run voice app
@@ -44,7 +44,7 @@ this.$speech.addText(this.t('Responses.welcome.response'));
 
 this.ask(this.$speech);
 ```
-More information:
+For more information:
 
 Voice CMS: https://github.com/pialuna/voice-cms
 
