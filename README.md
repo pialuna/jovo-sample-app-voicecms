@@ -24,7 +24,7 @@ The Jovo Framework documentation can be found here: [jovo.tech/docs](https://www
 
 
 
-In `src/app.js` the Voice CMS Jovo Plugin is initialized. Insert here the endpoint of your Voice CMS API and the id of your project in the CMS.
+In `src/app.js` the Voice CMS Jovo Plugin is initialized. As options, pass the endpoint of your Voice CMS API and the ID of your project in the CMS.
 ```javascript
 app.use(
 	// ...
